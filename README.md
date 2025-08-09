@@ -19,13 +19,11 @@ This repository contains the implementation of **Furniture Assembly Instruction 
 
 1. **Open** `Furniture100K_Model_Train_Test.ipynb` in Jupyter Notebook or Google Colab.
 
-2. **Update the dataset paths** in the notebook to point to the dataset folders:
-# 
-    train_data_path = "100k_Training_Furniture_Dataset/"
-    
-    # Path to the extracted testing data folder
-    test_data_path = "10K_Furniture_Testing_Data/"
-    ```
+**Update the dataset paths** in `Furniture100K_Model_Train_Test.ipynb` to point to the extracted folders:
+```python
+train_data_path = "100k_Training_Furniture_Dataset/"
+test_data_path = "10K_Furniture_Testing_Data/"
+```
 
 3. **Run all cells** to train and/or test the model.
 
